@@ -1,131 +1,114 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Navaan Sandhu | Fan Page</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/yourkitid.js" crossorigin="anonymous"></script>
-        <style>
-            body {
-                font-family: Arial, sans-serif;
-            }
-            .hero {
-                background: url('https://source.unsplash.com/1600x900/?music,concert') no-repeat center center/cover;
-                height: 30vh;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                color: rgb(7, 7, 7);
 
-                text-align: center;
-            }
-            .social-icons a {
-                margin: 0 10px;
-                font-size: 24px;
-                color: white;
-                transition: 0.3s;
-            }
-            .social-icons a:hover {
-                color: #f39c12;
-            }
-            .footer {
-                background: #222;
-                color: white;
-                padding: 15px 0;
-                text-align: center;
-            }
-        </style>
-    </head>
-    <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Navaan Sandhu | Fan Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/yourkitid.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
 
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-            <div class="container">
-                <a class="navbar-brand" href="#">Navaan Sandhu Fan Page</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#music">Top Songs</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#videos">Music Videos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                    </ul>
-                </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navaan Sandhu Fan Page</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#music">Top Songs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#videos">Music Videos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
             </div>
-        </nav>
+        </div>
+    </nav>
 
-        <!-- Hero Section -->
-        <header class="hero">
-            <div>
-                <h1>Welcome to the Navaan Sandhu Fan Page</h1>
-                <p>The ultimate destination for fans of Punjabi music sensation, Navaan Sandhu!</p>
-            </div>
-        </header>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div>
+            <h1>Welcome to the Navaan Sandhu Fan Page</h1>
+            <p>The ultimate destination for fans of Punjabi music sensation, Navaan Sandhu!</p>
+        </div>
+    </header>
 
 
-        <!-- YouTube Videos Section -->
-        <section id="videos" class="py-5">
-            <div class="container text-center">
-                <h2>Top 5 Music Videos</h2>
-                <p>Enjoy the latest music videos from Navaan Sandhu!</p>
-                <div class="row mt-4">
-                
-                        <div class="col-md-6">
-                            <div class="ratio ratio-16x9">
-                                <iframe src="https://www.youtube.com/embed/SeS00eJnguo?si=uo_EeD5Wr-7s2-XU" title="Navaan Sandhu Video 1" allowfullscreen></iframe>
-                            </div>
-                            <p class="mt-2">🔥 Latest Track - "Song 1"</p>
+    <!-- YouTube Videos Section -->
+    <section id="videos" class="py-5">
+        <div class="container text-center">
+            <h2>Top 5 Music Videos</h2>
+            <p>Enjoy the latest music videos from Navaan Sandhu!</p>
+            <div class="row mt-4">
+            
+                    <div class="col-md-6">
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/SeS00eJnguo?si=uo_EeD5Wr-7s2-XU" title="Navaan Sandhu Video 1" allowfullscreen></iframe>
                         </div>
-                        <div class="col-md-6">
-                            <div class="ratio ratio-16x9">
-                                <iframe src="https://www.youtube.com/embed/UTMh-_wh1xE" title="Navaan Sandhu Video 2" allowfullscreen></iframe>
-                            </div>
-                            <p class="mt-2">🎶 "Song 2"</p>
-                        </div>
-                        <div class="col-md-6 mt-4">
-                            <div class="ratio ratio-16x9">
-                                <iframe src="https://www.youtube.com/embed/Ld9hW_ztn_c" title="Navaan Sandhu Video 3" allowfullscreen></iframe>
-                            </div>
-                            <p class="mt-2">🎤 "Song 3"</p>
-                        </div>
-                        <div class="col-md-6 mt-4">
-                            <div class="ratio ratio-16x9">
-                                <iframe src="https://www.youtube.com/embed/cM69h3upXec" title="Navaan Sandhu Video 4" allowfullscreen></iframe>
-                            </div>
-                            <p class="mt-2">🚀 "Song 4"</p>
-                        </div>
-                        <div class="col-md-12 mt-4">
-                            <div class="ratio ratio-16x9">
-                                <iframe src="https://www.youtube.com/embed/pLdP6kUy4IQ" title="Navaan Sandhu Video 5" allowfullscreen></iframe>
-                            </div>
-                            <p class="mt-2">🔥 "Song 5"</p>
-                        </div>
+                        <p class="mt-2">🔥 Latest Track - "Song 1"</p>
                     </div>
-                    
-            </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section id="contact" class="bg-light py-5">
-            <div class="container text-center">
-                <h2>Stay Connected</h2>
-                <p>Follow Navaan Sandhu on social media:</p>
-                <div class="social-icons">
-                    <a href="https://www.instagram.com/navaansandhuofficial" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="https://twitter.com/navaansandhu" target="_blank"><i class="fab fa-twitter"></i></a>
-                    <a href="https://www.youtube.com/channel/UCGMfRSOhC8SqZ0nnjfDR1Rg" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <div class="col-md-6">
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/UTMh-_wh1xE" title="Navaan Sandhu Video 2" allowfullscreen></iframe>
+                        </div>
+                        <p class="mt-2">🎶 "Song 2"</p>
+                    </div>
+                    <div class="col-md-6 mt-4">
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/Ld9hW_ztn_c" title="Navaan Sandhu Video 3" allowfullscreen></iframe>
+                        </div>
+                        <p class="mt-2">🎤 "Song 3"</p>
+                    </div>
+                    <div class="col-md-6 mt-4">
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/cM69h3upXec" title="Navaan Sandhu Video 4" allowfullscreen></iframe>
+                        </div>
+                        <p class="mt-2">🚀 "Song 4"</p>
+                    </div>
+                    <div class="col-md-12 mt-4">
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/pLdP6kUy4IQ" title="Navaan Sandhu Video 5" allowfullscreen></iframe>
+                        </div>
+                        <p class="mt-2">🔥 "Song 5"</p>
+                    </div>
                 </div>
-            </div>
-        </section>
+                
+        </div>
+    </section>
 
-        <!-- Footer -->
-        <footer class="footer">
-            <p>&copy; 2025 Navaan Sandhu Fan Page</p>
-        </footer>
+    <!-- Contact Section -->
+    <section id="contact" class="bg-light py-5">
+        <div class="container text-center">
+            <h2>Stay Connected</h2>
+            <p><strong>Email:</strong> inderpalsxndhu1@gmail.com</p>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    </body>
-    </html>
+        </div>
+    </section>
+    <section id="contact" class="py-5">
+        <div class="container text-center">
+            <h2>Contact Me</h2>
+            <p>Fill out the form below, and I'll get back to you.</p>
+            <form action="https://app.formsubmit.site/f/d01c55d0-aa37-4ada-ad00-daeac9fb8497" method="POST" class="mx-auto" style="max-width: 500px;">
+                <input type="text" name="name" class="form-control mb-3" placeholder="Your Name" required>
+                <input type="email" name="email" class="form-control mb-3" placeholder="Your Email" required>
+                <textarea name="message" class="form-control mb-3" placeholder="Your Message" rows="4" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Navaan Sandhu Fan Page</p>
+        <p><strong>Disclaimer:</strong> This is a fan page dedicated to Navaan Sandhu. All videos are embedded from YouTube and belong to their respective owners.</p>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
