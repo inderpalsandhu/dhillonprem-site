@@ -35,26 +35,21 @@
             <p>Fill out the form and we will get back to as soon as possible</p>
         </div>
     </header>
-    <div class="container py-5 text-center">
-        <div id="formContainer">
-            <!-- Contact Form -->
-            <form id="contactForm" method="POST" class="mx-auto" style="max-width: 500px;">
-                <label class="form-label">Your Email:</label>
-                <input type="email" name="email" class="form-control mb-3" placeholder="Enter your email" required>
-
-                <label class="form-label">Your Message:</label>
-                <textarea name="message" class="form-control mb-3" placeholder="Write your message here" rows="4" required></textarea>
-
-                <button type="submit" class="btn btn-primary">Send Message</button>
-            </form>
-
-            <!-- Success Message (Hidden Initially) -->
-            <div id="successMessage" class="alert alert-success mt-4" style="display: none;">
-                <h4>✅ Message Sent Successfully!</h4>
-                <p>You will be redirected to the homepage in 5 seconds...</p>
-            </div>
-        </div>
+    <form id="contactForm" action="contact.php" method="POST">
+        <label class="form-label">Your Email:</label>
+        <input type="email" name="email" class="form-control mb-3" placeholder="Enter your email" required>
+    
+        <label class="form-label">Your Message:</label>
+        <textarea name="message" class="form-control mb-3" placeholder="Write your message here" rows="4" required></textarea>
+    
+        <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+    
+    <!-- Success Message (Hidden Initially) -->
+    <div id="successMessage" class="alert alert-success mt-4" style="display: none;">
+        <h4>✅ Message Sent Successfully!</h4>
+        <p>You will be redirected to the homepage in 5 seconds...</p>
     </div>
-
+    
 </body>
 </html>
