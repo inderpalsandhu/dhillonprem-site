@@ -91,8 +91,9 @@
     <section id="contact" class="py-5">
         <div class="container py-5 text-center">
             <div id="formContainer">
-                <!-- Contact Form -->
-                <form name="contact" method="POST" data-netlify="true">
+                <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+                    <input type="hidden" name="_redirect" value="index.html">
+                    
                     <label class="form-label">Your Email:</label>
                     <input type="email" name="email" class="form-control mb-3" placeholder="Enter your email" required>
                 
@@ -102,12 +103,6 @@
                     <button type="submit" class="btn btn-primary">Send Message</button>
                 </form>
                 
-    
-                <!-- Success Message (Hidden Initially) -->
-                <div id="successMessage" class="alert alert-success mt-4" style="display: none;">
-                    <h4>✅ Message Sent Successfully!</h4>
-                    <p>You will be redirected to the homepage in 5 seconds...</p>
-                </div>
             </div>
         </div>
           
